@@ -1,0 +1,122 @@
+    body {
+        width: auto;
+        padding: 50px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 22px;
+        font-weight: 500;
+        font-style: italic;
+        position: relative;
+    }
+    
+    .wraper_a {
+        width: inherit;
+        height: 1200px;
+        position: relative;
+    }
+    
+    .block_a {
+        background-color: #4caf50;
+        width: 60%;
+        height: 600px;
+        position: relative;
+    }
+    
+    .sticky {
+        position: sticky;
+        top: 0;
+        color: red;
+    }
+    
+    .block_b {
+        background-color: #ffc107;
+        width: 40%;
+        height: 1200px;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+    
+    .block_c {
+        background-color: #673ab7;
+        width: 60%;
+        height: 600px;
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+    }
+    
+    .block_d {
+        background-color: #fff;
+        color: #673ab7;
+        width: 300px;
+        height: 300px;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .wraper_b {
+        width: inherit;
+        height: 800px;
+        position: relative;
+        margin-top: 50px;
+    }
+    
+    .yellow {
+        width: 75%;
+        height: 600px;
+        background-color: yellow;
+        position: absolute;
+        z-index: 4;
+        top: 0;
+        left: 0;
+    }
+    
+    .blue {
+        width: 75%;
+        height: 600px;
+        background-color: blue;
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        right: 0;
+    }
+    
+    .blue p {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    
+    .green {
+        width: 75%;
+        height: 600px;
+        background-color: green;
+        position: absolute;
+        z-index: 2;
+        bottom: 0;
+        left: 0;
+    }
+    
+    .green p {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+    
+    .red {
+        width: 75%;
+        height: 600px;
+        background-color: red;
+        position: absolute;
+        z-index: 3;
+        bottom: 0;
+        right: 0;
+    }
+    
+    .red p {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
