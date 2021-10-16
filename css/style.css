@@ -267,6 +267,7 @@ body {
 }
 
 .btn {
+  font-size: 16px;
   display: inline-block;
   background-color: #F78434;
   color: white;
@@ -274,6 +275,7 @@ body {
   padding: 18px 35px;
   border: 0;
   border-radius: 50px;
+  text-decoration: none;
   cursor: pointer;
 }
 
@@ -463,6 +465,7 @@ body {
   font-weight: bold;
   font-size: 42px;
   line-height: 62px;
+  margin: 0;
 }
 
 @media (max-width: 576px) {
@@ -1166,6 +1169,11 @@ body {
   margin: 30px 30px 20px 30px;
 }
 
+.testimotial-col-1:hover {
+  -webkit-filter: drop-shadow(0px 10px 52px rgba(0, 0, 0, 0.08));
+          filter: drop-shadow(0px 10px 52px rgba(0, 0, 0, 0.08));
+}
+
 .testimotial-col-1:hover .testimotial-play-btn {
   position: absolute;
   top: 33%;
@@ -1205,6 +1213,11 @@ body {
 
 .testimotial-col-2 .text {
   margin: 30px 30px 20px 30px;
+}
+
+.testimotial-col-2:hover {
+  -webkit-filter: drop-shadow(0px 10px 52px rgba(0, 0, 0, 0.08));
+          filter: drop-shadow(0px 10px 52px rgba(0, 0, 0, 0.08));
 }
 
 .testimotial-col-2:hover .testimotial-play-btn {
@@ -1257,6 +1270,11 @@ body {
   position: absolute;
   right: -10%;
   top: -10%;
+}
+
+.testimotial-col-3:hover {
+  -webkit-filter: drop-shadow(0px 10px 52px rgba(0, 0, 0, 0.08));
+          filter: drop-shadow(0px 10px 52px rgba(0, 0, 0, 0.08));
 }
 
 .testimotial-col-3:hover .testimotial-play-btn {
@@ -1327,6 +1345,64 @@ body {
   color: #58BEBF;
   margin-left: 30px;
   margin-bottom: 30px;
+}
+
+.expert-sect {
+  background-image: url(../img/expert-bg.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  position: relative;
+  padding: 155px 0 55px;
+  margin-top: 100px;
+}
+
+@media (max-width: 1280px) {
+  .expert-sect {
+    background-size: cover;
+  }
+}
+
+@media (max-width: 640px) {
+  .expert-sect {
+    padding-bottom: 0;
+    font-size: 0;
+  }
+}
+
+.expert-sect .expert-person {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+}
+
+@media (max-width: 1280px) {
+  .expert-sect .expert-person {
+    max-height: 50vw;
+  }
+}
+
+@media (max-width: 640px) {
+  .expert-sect .expert-person {
+    position: static;
+    max-height: none;
+    max-width: 100%;
+    margin-top: 50px;
+  }
+}
+
+.expert-sect .expert-col {
+  max-width: 350px;
+}
+
+.expert-sect .expert-col * {
+  color: white;
+}
+
+.expert-sect .btn {
+  background-color: white;
+  color: #323232;
+  margin-top: 30px;
 }
 
 footer {
