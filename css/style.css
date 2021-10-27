@@ -631,6 +631,134 @@ body {
   }
 }
 
+.team-member-info .section-heading {
+  margin-top: 20px;
+}
+
+.team-member-info .team-member-contacts {
+  padding-left: 0;
+  padding-bottom: 20px;
+  margin-top: 10px;
+  border-bottom: 4px solid #E6E6F0;
+  margin-bottom: 40px;
+}
+
+.team-member-info .team-member-contacts li {
+  display: inline-block;
+  list-style: none;
+}
+
+@media (max-width: 768px) {
+  .team-member-info .team-member-contacts li {
+    display: block;
+  }
+}
+
+.team-member-info .team-member-contacts li a {
+  text-decoration: none;
+  color: #24A3FF;
+}
+
+.team-member-info .team-member-contacts .team-meamber-position {
+  font-size: 16px;
+  line-height: 22px;
+  color: #B3B3BA;
+}
+
+@media (max-width: 768px) {
+  .team-member-info .team-member-contacts .team-meamber-position {
+    margin-top: 15px;
+  }
+}
+
+.team-member-info .team-member-contacts .team-meamber-mail {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  margin-left: 25px;
+  position: relative;
+}
+
+.team-member-info .team-member-contacts .team-meamber-mail::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #B3B3BA;
+  position: absolute;
+  left: -16px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+@media (max-width: 768px) {
+  .team-member-info .team-member-contacts .team-meamber-mail::before {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .team-member-info .team-member-contacts .team-meamber-mail {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+}
+
+.team-member-info .team-member-contacts .team-meamber-social {
+  font-size: 16px;
+  line-height: 19px;
+  margin-left: 25px;
+  position: relative;
+}
+
+.team-member-info .team-member-contacts .team-meamber-social::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #B3B3BA;
+  position: absolute;
+  left: -16px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+@media (max-width: 768px) {
+  .team-member-info .team-member-contacts .team-meamber-social::before {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .team-member-info .team-member-contacts .team-meamber-social {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+}
+
+.team-member-info .team-meamber-text {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 26px;
+  color: #000000;
+}
+
+.team-member-info .team-meamber-education {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.team-member-info .section-subheading {
+  color: #323264;
+  margin-bottom: 10px;
+}
+
+.team-member-info .team-member-experience {
+  margin-bottom: 80px;
+}
+
 footer {
   background-color: #F5F5FA;
   border-radius: 12px 0 0;
@@ -680,9 +808,22 @@ footer {
   color: #323264;
 }
 
+@media (max-width: 992px) {
+  .footer-contacts .footer-location .footer-adress {
+    margin-top: 20px;
+  }
+}
+
 .footer-contacts .footer-location .footer-map {
   margin-left: 50px;
   position: relative;
+}
+
+@media (max-width: 992px) {
+  .footer-contacts .footer-location .footer-map {
+    margin-left: 0;
+    margin-top: 10px;
+  }
 }
 
 .footer-contacts .footer-location .footer-map .link-map {
@@ -723,9 +864,22 @@ footer {
   margin-right: 20px;
 }
 
+@media (max-width: 992px) {
+  .footer-contacts .footer-fb {
+    margin-right: 0;
+    margin: 20px auto;
+  }
+}
+
 .footer-contacts .footer-tel {
   margin-right: 25px;
   position: relative;
+}
+
+@media (max-width: 992px) {
+  .footer-contacts .footer-tel {
+    margin-right: 0;
+  }
 }
 
 .footer-contacts .footer-tel::before {
@@ -759,6 +913,12 @@ footer {
   position: relative;
 }
 
+@media (max-width: 992px) {
+  .footer-contacts .footer-mail {
+    margin: 20px auto;
+  }
+}
+
 .footer-contacts .footer-mail::before {
   content: "";
   width: 6px;
@@ -788,6 +948,13 @@ footer {
 
 .footer-brand {
   margin-top: 30px;
+}
+
+@media (max-width: 992px) {
+  .footer-brand {
+    margin: 20px auto 120px;
+    text-align: center;
+  }
 }
 
 .footer-brand .footer-brand-text {
